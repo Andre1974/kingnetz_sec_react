@@ -27,9 +27,10 @@ Die Anwendung wurde mit **React** und **Vite** in **JavaScript** entwickelt, um 
 - **CSS/SCSS** – Für ansprechende Gestaltung und UI-Optimierung
 
 ---
-## Screenshots 
-<img src="https://github.com/Andre1974/kingnetz_sec_react/tree/main/src/img/death_1.png" alt="Beschreibung" width="200">
+## 📸 Screenshots 
+<img src="https://raw.githubusercontent.com/Andre1974/kingnetz_sec_react/refs/heads/main/public/screen1.png" alt="Website Screen1" width="600">
 
+<img src="https://raw.githubusercontent.com/Andre1974/kingnetz_sec_react/refs/heads/main/public/screen2.png" alt="Website Screen2" width="600">
 
 
 
