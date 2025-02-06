@@ -26,7 +26,7 @@ Die Website dient dazu, Kunden über das **Portfolio** des Unternehmens zu infor
 
 Die Anwendung wurde mit **React** und **Vite** in **JavaScript** entwickelt, um eine schnelle, moderne und performante Benutzererfahrung zu gewährleisten.
 
----
+--- <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠️ Technologien & Tools
 
