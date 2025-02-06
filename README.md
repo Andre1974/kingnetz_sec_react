@@ -38,7 +38,7 @@ Führe im Terminal folgenden Befehl aus, um das Repository von GitHub zu laden:
 git clone <https://github.com/Andre1974/kingnetz_sec_react>
 cd <kingnetz_sec_react>
 ```
-````
+
 
 ### 📌 2. Abhängigkeiten installieren
 
@@ -59,7 +59,7 @@ npm run dev
 **📌 Das Projekt läuft jetzt unter:**  
 👉 [`http://localhost:5173/`](http://localhost:5173/) _(Standard-Port von Vite, falls nicht anders konfiguriert)_
 
----
+
 
 **👥 Teammitglieder**
 
@@ -72,7 +72,7 @@ Cornelia Boolhaar
 ✅ Moderne UI/UX mit responsivem Design  
 ✅ Blitzschnelle Performance dank Vite
 
----
+
 
 ## 📈 Roadmap
 
@@ -81,7 +81,7 @@ Cornelia Boolhaar
 - [ ] **Mehrsprachigkeit** für internationale Kunden
 - [ ] **Automatische Sicherheitschecks** für Anfragen
 
----
+
 
 ## 💡 Mitwirken
 
@@ -101,21 +101,23 @@ Folge diesen Schritten:
    ```sh
    git push origin feature-meinFeature
    ```
+   ```
+
 5. Erstelle eine **Pull Request**
 
----
+
 
 ## ✉ Kontakt
 
 📧 **E-Mail:** [kontakt@kingnetz-cybersecurity.de](mailto:kontakt@kingnetz-cybersecurity.de)  
 🌍 **Website:** [www.kingnetz-cybersecurity.de](https://www.kingnetz-cybersecurity.de)
 
----
+
 
 ## 🔒 Lizenz
 
 Dieses Projekt steht unter der **MIT-Lizenz**.
 
-```
 
-```
+
+
