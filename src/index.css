@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+
+}
+
+p{
+  padding-top: 1rem;
+  
+}
+
+html {
+  scroll-behavior: smooth;  /* Scrollen wird animiert */
+}
+
+/* Ankerkorrektur */
+/* Unsichtbarer Offset für Ankerpunkte */
+/* in Code einfügen */
+.anchor-offset {
+  display: block; /* Block-Element */
+  height: 80px; /* Höhe des Pufferbereichs (gleich der Höhe der Navigation) */
+  margin-top: -180px; /* Verschiebt das Ziel nach oben */
+  visibility: hidden; /* Unsichtbar machen */
+}
+
+

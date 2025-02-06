@@ -1,0 +1,242 @@
+/* Seminar-Shop */
+.seminar-shop {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.seminar-shop-h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Seminarliste */
+.seminar-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.seminar-item {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Einheitliche Breite */
+  display: flex; /* Aktiviert Flexbox */
+  flex-direction: column; /* Vertikale Anordnung der Kinder */
+  justify-content: space-between; /* Platzierung: oben und unten */
+  align-items: center; /* Zentriert horizontal */
+  text-align: center; /* Text zentrieren */
+  height: 100%; /* Container füllt die volle Höhe */
+  min-height: 400px; /* Mindesthöhe für Konsistenz */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.seminar-item:hover {
+  transform: scale(1.05);
+}
+
+.seminar-item h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.seminar-item p {
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+.seminar-item button {
+  background-color: #14192d;
+  color: whitesmoke;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: auto; /* Schiebt den Button nach unten */
+}
+
+.seminar-item button:hover {
+  background-color: #104403;
+}
+
+/* Warenkorb */
+.cart {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart button:hover {
+  background-color: #c82333;
+}
+
+/* Gesamtpreis */
+.cart h3 {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Checkboxen für AGB und Widerruf */
+.cart-checks {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-checks label {
+  font-size: 14px;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.cart-checks input {
+  margin-right: 10px;
+}
+
+.cart-checks a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.cart-checks a:hover {
+  text-decoration: underline;
+}
+
+/* Jetzt bestellen Button */
+.order-button {
+  background-color: #ccc; /* Initial grau */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: not-allowed; /* Nicht klickbar im deaktivierten Zustand */
+  margin-top: 20px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  transition: background-color 0.2s;
+}
+
+.order-button:enabled {
+  background-color: #28a745; /* Grün, wenn aktiviert */
+  cursor: pointer;
+}
+
+.order-button:enabled:hover {
+  background-color: #1e7e34; /* Dunkleres Grün beim Hover */
+}
+
+/* Responsives Design */
+@media (max-width: 768px) {
+  .seminar-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .seminar-item {
+    width: 90%;
+    min-height: auto; /* Mindesthöhe deaktivieren für mobile Ansicht */
+  }
+
+  .order-button {
+    width: 100%; /* Volle Breite für den Button auf mobilen Geräten */
+  }
+}
+
+
+/* Persönliche Angaben - Formular */
+.personal-info {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #333;
+}
+
+.personal-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.form-buttons button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-buttons button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+}
+
+.form-buttons button[type="submit"]:hover {
+  background-color: #218838;
+}
+
+.form-buttons button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+.form-buttons button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+

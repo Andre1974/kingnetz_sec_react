@@ -1,0 +1,122 @@
+/* App.css */
+/* Haupt-Grid-Layout */
+.grid-layout {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "hero hero"
+    "content1 content1"
+    "content2 content2"
+    "service service"
+    "karte karte"
+    "seminare seminare"
+    "kontakt kontakt"
+    "footer footer";
+  grid-template-columns: 1fr; /* Eine Spalte */
+  gap: 1rem;
+  height: 100%;
+}
+
+/* Header-Bereich */
+.header {
+  grid-area: header;
+  background-color: #14192d;
+  color: lemonchiffon;
+}
+
+/* Hero-Bereich */
+.hero {
+  grid-area: hero;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+/* Content-Bereiche */
+.content1 {
+  grid-area: content1;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+.content2 {
+  grid-area: content2;
+  background-color: #14192D;
+  padding: 1rem;
+}
+
+.content2 h2,
+.content2 p {
+  color: whitesmoke;
+}
+
+/* Service-Bereich */
+.service {
+  grid-area: service;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+/*Karte oder Ticker*/
+/* Karte oder Ticker */
+.karte {
+  grid-area: karte;
+  display: flex;
+  justify-content: center; /* Horizontal zentrieren */
+  align-items: center; /* Vertikal zentrieren */
+  margin: 10px auto; /* Abstand oben/unten und automatische Zentrierung */
+  background-color: #02061a;
+  width: 100%;
+}
+
+.karte iframe {
+  border: none; /* Entfernt den Rahmen um das iframe */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Schatten für Optik */
+  border-radius: 8px; /* Optional: Abgerundete Ecken */
+  max-width: 100%; /* Passt die Breite an den Container an */
+  aspect-ratio: 1 / 1; /* Seitenverhältnis bleibt 1:1 */
+  height: auto; /* Automatische Höhe basierend auf der Breite */
+}
+
+
+/* Seminare-Bereich */
+.seminare {
+  grid-area: seminare;
+  background-color: #f4f4f4;
+  padding: 1rem;
+}
+
+/* Kontakt-Bereich */
+.kontakt {
+  grid-area: kontakt;
+  background-color: #14192d;
+  color: lemonchiffon;
+  padding: 1rem;
+}
+
+/* Footer */
+.footer {
+  grid-area: footer;
+  background-color: #14192d;
+  color: lemonchiffon;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .grid-layout {
+    grid-template-areas:
+      "header"
+      "hero"
+      "content1"
+      "content2"
+      "service"
+      "karte"
+      "seminare"
+      "kontakt"
+      "footer";
+  }
+}
+
+
