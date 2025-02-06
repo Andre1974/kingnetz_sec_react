@@ -2,19 +2,7 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
-lighthouse http://127.0.0.1:8080 --view
-
-
-Hier ist die gut formatierte **README.md** im Markdown-Format:  
-
-```md
+````md
 # 🌐 CyberSecurity Unternehmenswebsite
 
 ![CyberSecurity](https://img.shields.io/badge/CyberSecurity-Secure-blue?style=for-the-badge&logo=cybersecurity&logoColor=white)
@@ -45,14 +33,17 @@ Die Anwendung wurde mit **React** und **Vite** in **JavaScript** entwickelt, um 
 ## 📥 Installation & Ausführung
 
 ### 📌 1. Repository klonen
+
 Führe im Terminal folgenden Befehl aus, um das Repository von GitHub zu laden:
 
 ```sh
-git clone <REPOSITORY-URL>
-cd <PROJEKTORDNER>
+git clone <https://github.com/Andre1974/kingnetz_sec_react>
+cd <kingnetz_sec_react>
 ```
+````
 
 ### 📌 2. Abhängigkeiten installieren
+
 Installiere alle erforderlichen Pakete mit:
 
 ```sh
@@ -60,6 +51,7 @@ npm install
 ```
 
 ### 📌 3. Entwicklungsserver starten
+
 Starte das Projekt in der Entwicklungsumgebung mit:
 
 ```sh
@@ -67,26 +59,29 @@ npm run dev
 ```
 
 **📌 Das Projekt läuft jetzt unter:**  
-👉 [`http://localhost:5173/`](http://localhost:5173/) *(Standard-Port von Vite, falls nicht anders konfiguriert)*
+👉 [`http://localhost:5173/`](http://localhost:5173/) _(Standard-Port von Vite, falls nicht anders konfiguriert)_
 
 ---
+
+**👥 Teammitglieder**
+
+Cornelia Boolhaar
 
 ## 🎯 Features
 
 ✅ Übersichtliches Portfolio für Kunden  
 ✅ Anfrageformular für Lehrgänge  
 ✅ Moderne UI/UX mit responsivem Design  
-✅ Blitzschnelle Performance dank Vite  
-✅ Optimierung für SEO & Sicherheit  
+✅ Blitzschnelle Performance dank Vite
 
 ---
 
 ## 📈 Roadmap
 
-- [ ] **Dark Mode Integration** für bessere Benutzererfahrung  
-- [ ] **Blog-Bereich** mit aktuellen CyberSecurity-News  
-- [ ] **Mehrsprachigkeit** für internationale Kunden  
-- [ ] **Automatische Sicherheitschecks** für Anfragen  
+- [ ] **Dark Mode Integration** für bessere Benutzererfahrung
+- [ ] **Blog-Bereich** mit aktuellen CyberSecurity-News
+- [ ] **Mehrsprachigkeit** für internationale Kunden
+- [ ] **Automatische Sicherheitschecks** für Anfragen
 
 ---
 
@@ -95,40 +90,34 @@ npm run dev
 Möchtest du zum Projekt beitragen? Super! 🛠  
 Folge diesen Schritten:
 
-1. **Forke** das Repository  
-2. Erstelle einen neuen Branch  
+1. **Forke** das Repository
+2. Erstelle einen neuen Branch
    ```sh
    git checkout -b feature-meinFeature
    ```
-3. **Committe** deine Änderungen  
+3. **Committe** deine Änderungen
    ```sh
    git commit -m 'Neues Feature hinzugefügt'
    ```
-4. **Pushe** die Änderungen  
+4. **Pushe** die Änderungen
    ```sh
    git push origin feature-meinFeature
    ```
-5. Erstelle eine **Pull Request**  
+5. Erstelle eine **Pull Request**
 
 ---
 
 ## ✉ Kontakt
 
-📧 **E-Mail:** [kontakt@cybersecurity-unternehmen.de](mailto:kontakt@cybersecurity-unternehmen.de)  
-🌍 **Website:** [www.cybersecurity-unternehmen.de](https://www.cybersecurity-unternehmen.de)  
+📧 **E-Mail:** [kontakt@kingnetz-cybersecurity.de](mailto:kontakt@kingnetz-cybersecurity.de)  
+🌍 **Website:** [www.kingnetz-cybersecurity.de](https://www.kingnetz-cybersecurity.de)
 
 ---
 
 ## 🔒 Lizenz
 
-Dieses Projekt steht unter der **MIT-Lizenz** – siehe [LICENSE](LICENSE) für weitere Informationen.
+Dieses Projekt steht unter der **MIT-Lizenz**.
+
 ```
 
-### **📌 Markdown-spezifische Formatierungen beachtet:**
-✅ **Fettdruck** für wichtige Begriffe  
-✅ **Absätze für bessere Lesbarkeit**  
-✅ **Listen & Codeblöcke korrekt formatiert**  
-✅ **Links zu den genutzten Technologien eingefügt**  
-✅ **Badges für optische Highlights**  
-
-Falls du noch Anpassungen oder Erweiterungen möchtest, lass es mich wissen! 🚀😊
+```
