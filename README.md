@@ -1,13 +1,11 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-````md
 # 🌐 CyberSecurity Unternehmenswebsite
 
 ![CyberSecurity](https://img.shields.io/badge/CyberSecurity-Secure-blue?style=for-the-badge&logo=cybersecurity&logoColor=white)
 
-
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
 
 <img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="JavaScript" width="50">
@@ -26,7 +24,7 @@ Die Website dient dazu, Kunden über das **Portfolio** des Unternehmens zu infor
 
 Die Anwendung wurde mit **React** und **Vite** in **JavaScript** entwickelt, um eine schnelle, moderne und performante Benutzererfahrung zu gewährleisten.
 
---- <p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠️ Technologien & Tools
 
