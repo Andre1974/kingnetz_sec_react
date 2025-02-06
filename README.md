@@ -28,7 +28,7 @@ Die Anwendung wurde mit **React** und **Vite** in **JavaScript** entwickelt, um 
 
 ---
 ## Screenshots 
-<img src="https://raw.githubusercontent.com/Andre1974/kingnetz_sec_react/blob/main/src/img/death_1.png" alt="Beschreibung" width="200">
+<img src="https://github.com/Andre1974/kingnetz_sec_react/tree/main/src/img/death_1.png" alt="Beschreibung" width="200">
 
 
 
