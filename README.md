@@ -6,11 +6,18 @@ This template provides a minimal setup to get React working in Vite with HMR and
 # 🌐 CyberSecurity Unternehmenswebsite
 
 ![CyberSecurity](https://img.shields.io/badge/CyberSecurity-Secure-blue?style=for-the-badge&logo=cybersecurity&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-F7DF1E?style=for-the-badge&logo=vite&logoColor=black)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
----
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" width="50">
+
+<img src= "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="JavaScript" width="50">
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="JavaScript" width="50">
+
+
+
 
 ## 🚀 Projektbeschreibung
 
