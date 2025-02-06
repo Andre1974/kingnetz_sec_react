@@ -76,8 +76,11 @@ Cornelia Boolhaar
 
 ## 📈 Roadmap
 
-- [ ] **Dark Mode Integration** für bessere Benutzererfahrung
+- [ ] **Dark Mode Integration** Umsetzung in PHP
+- [ ] **SEO + Seitenstruktur** Unterseiten und globale SEO / Routing
+- [ ] **Funktionalität Formulare** Anfrageformular + Anfrage Lehrgänge
 - [ ] **Blog-Bereich** mit aktuellen CyberSecurity-News
+- [ ] **Dark Mode Integration** für bessere Benutzererfahrung
 - [ ] **Mehrsprachigkeit** für internationale Kunden
 - [ ] **Automatische Sicherheitschecks** für Anfragen
 
